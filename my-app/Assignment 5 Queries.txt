@@ -1,0 +1,7 @@
+SELECT s.SIGHTED, s.NAME, s.LOCATION ORDER BY  s.sighted
+FROM flowers f, sightings s
+WHERE f.COMNAME = /*checked flower*/
+
+UPDATE flowers SET genus = /*passed in*/, species = /*passed in*/, comname = /*passed in*/
+
+INSERT INTO flowers (genus, species, comname) values (/*passed in*/, /*passed in*/, /*passed in*/)
